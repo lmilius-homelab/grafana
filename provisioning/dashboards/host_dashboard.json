@@ -16,8 +16,7 @@
   "editable": true,
   "gnetId": 928,
   "graphTooltip": 1,
-  "id": 2,
-  "iteration": 1611499615724,
+  "iteration": 1611501756606,
   "links": [],
   "panels": [
     {
@@ -2477,6 +2476,9 @@
       "linewidth": 1,
       "links": [],
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
       "pluginVersion": "7.3.7",
       "pointradius": 5,
@@ -2654,6 +2656,9 @@
       "links": [],
       "maxPerRow": 4,
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
       "pluginVersion": "7.3.7",
       "pointradius": 5,
@@ -2804,6 +2809,9 @@
       "linewidth": 1,
       "links": [],
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
       "pluginVersion": "7.3.7",
       "pointradius": 5,
@@ -3010,6 +3018,9 @@
       "linewidth": 1,
       "links": [],
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
       "pluginVersion": "7.3.7",
       "pointradius": 5,
@@ -3156,6 +3167,9 @@
       "linewidth": 1,
       "links": [],
       "nullPointMode": "connected",
+      "options": {
+        "alertThreshold": true
+      },
       "percentage": false,
       "pluginVersion": "7.3.7",
       "pointradius": 5,
@@ -9034,5 +9048,5 @@
   "timezone": "browser",
   "title": "Host Dashboard",
   "uid": "000000127",
-  "version": 5
+  "version": 6
 }
