@@ -1,0 +1,11 @@
+---
+kind: pipeline
+name: grafana
+type: docker
+
+steps:
+- name: Build
+  image: plugins/docker
+  settings:
+    repo: registry.lukemilius.com/grafana
+    auto_tag: true
