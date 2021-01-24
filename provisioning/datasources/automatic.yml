@@ -15,10 +15,10 @@ deleteDatasources:
   orgId: 1
 - name: Prometheus
   orgId: 1
-#  - name: ntop
-#    orgId: 1
-#  - name: pfsensefw
-#    orgId: 1
+- name: ntop
+  orgId: 1
+- name: pfsensefw
+  orgId: 1
 
 datasources:
 - name: InfluxDB
@@ -174,33 +174,33 @@ datasources:
   version: 1
   editable: true
 
-#- name: ntop
-#  type: influxdb
-#  access: proxy
-#  url: http://influxdb:8086
-#  password: ntop
-#  user: ntop
-#  database: ndpi
-#  basicAuth: false
-#  basicAuthUser:
-#  basicAuthPassword:
-#  withCredentials:
-#  isDefault: true
-#  jsonData:
-#     tlsAuth: false
-#     tlsAuthWithCACert: false
-#  secureJsonData:
-#    tlsCACert: ""
-#    tlsClientCert: ""
-#    tlsClientKey: ""
-#  version: 1
-#  editable: true
-#
-#- name: pfsensefw
-#  type: elasticsearch
-#  access: proxy
-#  database: "pfsense_*"
-#  url: http://elasticsearch:9200
-#  jsonData:
-#    esVersion: 60
-#    timeField: "utc_timestamp"
+- name: ntop
+  type: influxdb
+  access: proxy
+  url: http://influxdb:8086
+  password:
+  user:
+  database: ndpi
+  basicAuth: false
+  basicAuthUser:
+  basicAuthPassword:
+  withCredentials:
+  isDefault: false
+  jsonData:
+     tlsAuth: false
+     tlsAuthWithCACert: false
+  secureJsonData:
+    tlsCACert: ""
+    tlsClientCert: ""
+    tlsClientKey: ""
+  version: 1
+  editable: true
+
+- name: pfsensefw
+  type: elasticsearch
+  access: proxy
+  database: "pfsense_*"
+  url: http://elasticsearch:9200
+  jsonData:
+    esVersion: 60
+    timeField: "utc_timestamp"
