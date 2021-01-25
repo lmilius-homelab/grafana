@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": 5420,
   "graphTooltip": 0,
-  "iteration": 1611531945749,
+  "iteration": 1611536086132,
   "links": [],
   "panels": [
     {
@@ -1345,7 +1345,7 @@
         "useTags": false
       },
       {
-        "datasource": "PFS Graylog",
+        "datasource": "pfsensefw",
         "error": null,
         "filters": [
           {
@@ -1400,5 +1400,5 @@
   "timezone": "browser",
   "title": "Firewall Logs",
   "uid": "000000030",
-  "version": 1
+  "version": 2
 }
