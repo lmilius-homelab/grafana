@@ -1,3 +1,3 @@
-FROM grafana/grafana:8.5.4
+FROM grafana/grafana:9.5.3
 
 COPY provisioning/ /etc/grafana/provisioning
